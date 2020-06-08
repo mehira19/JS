@@ -1,0 +1,48 @@
+const items = [
+  {
+    _id: 1,
+    firstname: "Imourane",
+    lastname: "Diallo",
+    login: "imo",
+    password: "aaa",
+    soldItems: false,
+    createdAt: Date.now(),
+  },
+  {
+    _id: 2,
+    firstname: "Penda",
+    lastname: "Diallo",
+    login: "P",
+    password: "aaa",
+    soldItems: true,
+    createdAt: Date.now(),
+  },
+  {
+    _id: 3,
+    firstname: "User",
+    lastname: "1",
+    login: "fekf",
+    password: "aaa",
+    soldItems: false,
+    createdAt: Date.now(),
+  },
+  {
+    _id: 4,
+    firstname: "User",
+    lastname: "2",
+    login: "terj",
+    password: "aaa",
+    soldItems: true,
+    createdAt: Date.now(),
+  },
+  {
+    _id: 5,
+    firstname: "User",
+    lastname: "3",
+    login: "fdsz",
+    password: "aaa",
+    soldItems: false,
+    createdAt: Date.now(),
+  },
+];
+module.exports = items;
